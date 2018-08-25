@@ -74,6 +74,10 @@ img.profilePic{
     margin-left:20px;
 }
 
+#HCB_comment_box + hr{
+    display:none;
+}
+
 .hcb-wrapper{
     width: 80%;
 }
