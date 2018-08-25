@@ -1,9 +1,39 @@
+@import 'https://www.w3schools.com/w3css/4/w3.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import '//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0';
+
+
 body {
     background-image: url("https://images.unsplash.com/photo-1506420387169-44053207003b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d40fc0cbd08b4ce159537300e823d27&auto=format&fit=crop&w=1868&q=80");
     background-size: cover; 
 }/*https://images.unsplash.com/photo-1521798903226-9c2e199e3c74?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0e256e7f88dbed75c38ae0c96d4e74f5&auto=format&fit=crop&w=1782&q=80 Photo by rawpixel on Unsplash - appreciated:)*/
 
-img#codemusLogo{
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    right:0px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity:0.5;
+    z-index: 1;
+  }
+  
+  .icon-bar a {
+    width:30px;
+    height:30px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    font-size: 10px;
+    border-radius:50%;
+    background:lightgrey;
+    text-shadow:2px 2px 2px white;
+    box-shadow:0.5px 10px 20px black;
+  }
+  
+  img#codemusLogo{
     width:1em;
     height:1em;
     z-index:0.2;
@@ -54,6 +84,3 @@ img[title='log out']{
     height:30px
 }
 
-form{
-    width: 80%;
-}
