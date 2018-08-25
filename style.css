@@ -84,3 +84,6 @@ img[title='log out']{
     height:30px
 }
 
+img[src="//www.htmlcommentbox.com/static/images/feed.png"]{
+    display:none
+  }
