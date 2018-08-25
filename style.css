@@ -39,6 +39,10 @@ body {
     z-index:0.2;
 }
 
+#staff >h3 {
+    margin-left:20px;
+  }
+  
 img.profilePic{
     width: 300px;
     height:200px;
