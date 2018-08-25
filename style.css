@@ -66,6 +66,10 @@ img.profilePic{
     background-color:#ffd;
 }
 
+#HCB_comment_box{
+    margin-left:20px;
+}
+
 .hcb-wrapper{
     width: 80%;
 }
