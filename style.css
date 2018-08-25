@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1506420387169-44053207003b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d40fc0cbd08b4ce159537300e823d27&auto=format&fit=crop&w=1868&q=80");
+    background-size: cover; 
+}/*https://images.unsplash.com/photo-1521798903226-9c2e199e3c74?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0e256e7f88dbed75c38ae0c96d4e74f5&auto=format&fit=crop&w=1782&q=80 Photo by rawpixel on Unsplash - appreciated:)*/
+
+img#codemusLogo{
+    width:1em;
+    height:1em;
+    z-index:0.2;
+}
+
+img.profilePic{
+    width: 300px;
+    height:200px;
+}
+
+#gmap{
+    width: 70%;
+    margin:auto;
+}
+
+#gmap_canvas{
+    width:100%;
+    margin:auto;
+    padding: 10px;
+    overflow:hidden;
+    background:none!important;
+}
+
+
+/* comments */
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email, 
+#HCB_comment_box #hcb_form_name, 
+#HCB_comment_box #hcb_form_website{
+    background-color:#ffd;
+}
+
+.hcb-wrapper{
+    width: 80%;
+}
+
+.hcb-icon, .hcb-like, .hcb-reply,.hcb-flag{
+    width:15px;
+    height:15px;
+}
+
+img[title='log out']{
+    display:none
+} 
+
+.gravatar{
+    width:30px;
+    height:30px
+}
+
+form{
+    width: 80%;
+}
