@@ -13,3 +13,18 @@ if(!window.hcb_user){
             if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
     }
 )(); 
+
+// modal control
+
+function modalOn(){
+    document.getElementById('contact').style.display='block';
+    document.getElementById('HCB_comment_box').style.visibility='hidden';
+    document.getElementById('gmap').style.visibility='hidden';
+}
+  
+function modalOff(){
+    document.getElementById('contact').style.display='none';
+    document.getElementById('HCB_comment_box').style.visibility='visible';
+    document.getElementById('gmap').style.visibility='visible';
+}
+  
